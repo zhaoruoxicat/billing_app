@@ -1,0 +1,73 @@
+/* 默认浅色模式：使用 Bootstrap 默认即可 */
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212 !important;
+    color: #f1f1f1 !important;
+  }
+
+  .bg-light {
+    background-color: #1e1e1e !important;
+  }
+
+  .text-dark {
+    color: #f1f1f1 !important;
+  }
+
+  .text-muted {
+    color: #bbbbbb !important;
+  }
+
+  .card,
+  .form-control,
+  .table,
+  .modal-content,
+  .dropdown-menu {
+    background-color: #1e1e1e !important;
+    color: #f1f1f1 !important;
+    border-color: #444 !important;
+  }
+
+  .form-control::placeholder {
+    color: #999 !important;
+  }
+
+  .form-control:focus {
+    background-color: #2a2a2a !important;
+    color: #fff !important;
+    border-color: #666 !important;
+  }
+
+  .btn-primary {
+    background-color: #4e73df !important;
+    border-color: #4e73df !important;
+  }
+
+  .btn-outline-secondary {
+    color: #f1f1f1 !important;
+    border-color: #888 !important;
+  }
+
+  .btn-outline-secondary:hover {
+    background-color: #444 !important;
+  }
+
+  .table-bordered th,
+  .table-bordered td {
+    border-color: #444 !important;
+  }
+
+  .alert {
+    background-color: #2c2c2c !important;
+    color: #eee !important;
+    border-color: #555 !important;
+  }
+
+  a {
+    color: #89b4fa;
+  }
+
+  a:hover {
+    color: #a6d1ff;
+  }
+}
