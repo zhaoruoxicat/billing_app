@@ -1,8 +1,6 @@
 <?php
 session_start();
 require 'auth.php'; // 如果你有权限控制
-?>
-<?php
 require 'db.php';
 
 // 查询所有记录，包含关联字段

@@ -1,6 +1,6 @@
 <?php
 session_start();
-require 'auth.php'; // 如果需要权限控制
+require 'auth.php'; // 如果你有权限控制
 ?>
 
 <div class="d-flex justify-content-end align-items-center mb-3" style="margin-top: 0px; margin-right: 20px;">
